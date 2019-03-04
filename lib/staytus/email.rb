@@ -13,6 +13,7 @@ module Staytus
         mail.to         subscriber.email_address
         mail.from       "#{from_name} <#{from_address}>"
         mail.subject    self.subject_for(template, attributes.merge(:subscriber => subscriber))
+        mail.reply_to "HCC Support <hcc-support@unl.edu>"
 
         # Generate and set the plain text version of this message
         plain_text = self.body_for(template, attributes.merge(:subscriber => subscriber))
