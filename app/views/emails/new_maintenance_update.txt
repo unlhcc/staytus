@@ -1,4 +1,4 @@
-# A maintenance session has been updated on {{site.title}}
+# A maintenance session has been updated for the {{site.title}}
 
 [View on the status site]({{site.domain_with_protocol}}/maintenance/{{maintenance.identifier}})
 

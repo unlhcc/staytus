@@ -1,4 +1,4 @@
-# A new issue has been reported on {{site.title}}
+# A new issue has been reported for the {{site.title}}
 
 Full details can be seen below. We will continue to post updates whenever they become available.
 
